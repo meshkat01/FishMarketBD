@@ -1,4 +1,5 @@
 import 'package:fish_market_bd/splashscreen/splash_screen.dart';
+import 'package:fish_market_bd/utils/mycolors.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Fish Market BD',
      theme: ThemeData(
-       colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+       colorScheme: ColorScheme.fromSeed(seedColor: MyColors.primaryColors),
        useMaterial3: true,
      ),
      home: SplashScreen(),
